@@ -1,0 +1,127 @@
+
+.social img {
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	transition:all .5s ease;
+	margin-right: 4px;
+}
+
+.social img:hover {
+	-webkit-transform:rotate(-15deg);
+	-moz-transform:rotate(-15deg);
+	-o-transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg);
+	transform:rotate(-15deg);
+}
+
+/* padding for male icon */
+
+.iconpad {
+	padding-top: 35px;
+}
+
+
+.h1h4 {
+	font-family: "Montserrat", Trebuchet MS, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    padding-bottom: 20px;
+    
+}
+
+.blackbeta {
+	background-color: black;
+	color: white;
+	
+	height: 25px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+
+.thumbnail {
+	text-align:center;
+	border:0;
+	
+	-moz-box-shadow:none;
+	-o-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.paddingcontact {
+	padding-top: 5px;
+	background-color: #E3E1E1;
+	border-radius: 5px;
+}
+
+.touch {
+	
+	padding-bottom: 20px;
+	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+.hoverrow:hover{ 
+
+	background-color: #E3E1E1;
+	
+	border-radius: 20px;
+
+	
+}
+
+
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.workpad {
+	padding-top: 25px;
+}
+
+/* Xtra Small */
+@media (max-width: 767px) {
+	.xs-text-centered {
+		text-align: center;
+	}
+	.sm-text-centered {
+		text-align: center;
+	}
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+	.sm-dl-compact dt {
+		width: 30px;
+	}
+	.sm-dl-compact dd {
+		margin-left: 50px;
+	}
+	.sm-text-centered {
+		text-align: center;
+	}
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.sm-dl-compact dt {
+		width: 50px;
+	} 
+	.sm-dl-compact dd {
+		margin-left: 70px;
+	}
+}
+
+/* Large */
+@media (min-width: 1200px) {
+	.sm-dl-compact dt {
+		width: 50px;
+	} 
+	.sm-dl-compact dd {
+		margin-left: 70px;
+	}
+}
